@@ -1,0 +1,95 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .Log_in_or_Register_Text {
+    position: absolute;
+    left: 700;
+    top: 300;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 82px;
+    color: #949798;
+  }
+  
+  form, .content {
+    width: 25%;
+    margin: 0px auto;
+    padding: 20px;
+    border: 1px solid white;
+    background: white;
+    border-radius: 0px 0px 10px 10px;
+  }
+  .input {
+    margin: 12px 0px 12px 0px;
+
+  }
+  .input_USN [type=text], select {
+    box-sizing: border-box;
+    position: absolute;
+    width: 399px;
+    height: 78px;
+    left: 925px;
+    top: 473px;
+    background: #FDFEFF;
+    mix-blend-mode: normal;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    font-size: 123%;
+  }
+
+  .input_PASS [type=password], select{
+    box-sizing: border-box;
+    position: absolute;
+    width: 399px;
+    height: 78px;
+    left: 925px;
+    top: 596px;
+    background: #FDFEFF;
+    mix-blend-mode: normal;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    font-size: 123%;
+  }
+
+  
+  .btn {
+    box-sizing: border-box;
+    position: absolute;
+    width: 399px;
+    height: 78px;
+    left: 925px;
+    top: 719px;
+    background: #BF6B63; 
+    mix-blend-mode: normal;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+  }
+  .Title{
+    position: absolute;
+    left: 35px;
+    top: 100px;
+    color: #BF6B63;
+    font-family: 'poppins';
+    font-style: 'normal';
+    font-weight: 900;
+    font-size: 75px;
+    line-height: 192px;
+  }
+  .Title_2{
+    position: absolute;
+    left: 525px;
+    top: 165px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 96px;
+    color: #D9A384;
+  }
