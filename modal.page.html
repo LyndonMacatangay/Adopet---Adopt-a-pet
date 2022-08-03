@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-toolbar color="secondary">
+    <ion-title>Details</ion-title>
+  </ion-toolbar>
+</ion-header>
+ 
+<ion-content>
+  <div *ngIf="note">
+    <ion-item>
+      <ion-label position="stacked">Name of Pet</ion-label>
+      <ion-input [(ngModel)]="note.pet_name"></ion-input>
+    </ion-item>
+ 
+    <ion-item>
+      <ion-label position="stacked">Name of Owner</ion-label>
+      <ion-textarea [(ngModel)]="note.owner" rows="8"></ion-textarea>
+    </ion-item>
+  
+ 
+  <ion-item>
+    <ion-label position="stacked">Specie</ion-label>
+    <ion-textarea [(ngModel)]="note.specie" rows="8"></ion-textarea>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="stacked">Contact</ion-label>
+    <ion-textarea [(ngModel)]="note.contact" rows="8"></ion-textarea>
+  </ion-item>
+
+
+</div>
+
+ 
+ 
+</ion-content>
